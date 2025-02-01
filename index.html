@@ -37,8 +37,8 @@
   </script>
 </head>
 <body class="sora-font ">
-    <header class="container mx-auto bg-gradient-to-t from-stone-200 to-white">
-    <nav class="grid grid-cols-3 pt-5 h-24 ">
+    <header class="container mx-auto bg-gradient-to-t from-stone-200 to-white md:w-full">
+    <nav class="lg:grid grid-cols-3 pt-5 h-24 md:hidden sm:hidden ">
       <div>
       <img class="w-24 ml-14" src="assets/logo-header.png" alt="">
       </div>
@@ -66,7 +66,7 @@
       </div>
     </nav>
     <section>
-      <div>
+      <div class="md:w-full sm:w-full">
         <h2 class="font-semibold text-4xl mt- mb-4 text-center text-black">Freshness <span class="text-green-800">You Can <br>
           Count</span> On, Prices You’ll Love!</h2>
         <p class="font-normal text-xs text-center text-gray-500">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
@@ -77,52 +77,218 @@
     </section>
     </header>
     <body>
-        <div>
-          <div>
-            <h3>Services</h3>
+        <div class="">
+          <div class="justify-start items-center">
+            <h3 class="font-semibold text-xl pl-60 mt-36 text-green-600">Services</h3>
           </div>
-          <div class="grid grid-cols-3 ">
-            <div class="card h-56 w-64 shadow-xl bg-stone-200">
-              <figure class="px-10 pt-10">
-                <img
+          <div class="grid grid-cols-3 mb-36 mt-5 mx-36 pl-24 ">
+            <div class="card h-64 w-64 shadow-xl bg-stone-200 ">
+              <figure>
+                <img 
                   src="assets/service.png"
                   alt=""
-                  class="rounded-3xl bg-white" />
+                  class="rounded-full bg-white" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title">24/7 Services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                <h2 class="text-black font-semibold">24/7 Services</h2>
+                <p class="font-light text-xs text-stone-600 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
               </div>
             </div>
-            <div class="card bg-stone-200 w-64 shadow-xl">
-              <figure class="px-10 pt-10">
+            <div class="card bg-stone-200 h-64 w-64 shadow-xl">
+              <figure class="">
                 <img
                   src="assets/delivery.png"
                   alt=""
-                  class="rounded-xl" />
+                  class="rounded-full bg-white" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title">24/7 Services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                <h2 class="text-black font-semibold">Fast Delivery</h2>
+                <p class="font-light text-xs text-stone-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
               </div>
             </div>
-            <div class="card bg-stone-200 w-64 shadow-xl">
-              <figure class="px-10 pt-10">
+            <div class="card bg-stone-200 h-64 w-64 shadow-xl">
+              <figure class="">
                 <img
-                  src="assets/healthy.png."
+                  src="assets/healthy.png"
                   alt=""
-                  class="rounded-xl" />
+                  class="rounded-full bg-white" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title">24/7 Services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                <h2 class="text-black font-semibold">Healthy Products</h2>
+                <p class="font-light text-xs text-stone-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
               </div>
             </div>
           </div>
         </div>
+        <div class="grid grid-cols-2 bg-stone-200 h-96 ">
+          <div class="w-64 h-60 bg-gradient-to-b mt-20 ml-64 from-green-500 rounded-xl to-white">
+           <div class="pt-5 ml-4">
+             <h2 class="font-semibold text-white">30% off</h2>
+           <p class="font-light text-xs text-slate-700">Discover a world of treats, toys, and <br> essentials handpicked for </p>
+            <button class="font-normal text-sm bg-white h-6 w-20 rounded-md ">Buy Now</button>
+          </div>
+            <div class="pl-24">
+              <img class="w-36 " src="assets/vegetable-offer.png" alt=""></div>
+          </div>
+          <div class="grid grid-cols-3 mr-52 mt-20 mb-10">
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+            <div class="bg-white rounded-md grid grid-cols-2 w-32 h-16">
+              <div class="w-10">
+                <img class="w-20 h-14 pt-3 pl-3 rounded-lg h-10" src="assets/png-clipart-red-onion-white-onion-vegetable-yellow-onion-tandoori-chicken-food-image-file-formats.png" alt="">
+              </div>
+              <div class="w-10">
+                <h5 class="text-xs">4.5</h5>
+                <h2 class="text-xs">Onion 1 KG</h2>
+                <h4 class="text-xs">39.99</h4>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2 class="font-semibold text-green-600 mt-16 pl-64 mb-5 text-xl">Arrival & Offers</h2>
+          </div>
+          <div class="flex gap-4 justify-center">
+            <div class=" bg-green-900 flex rounded-xl ">
+              <div class="pt-5">
+                <img class="w-32" src="assets/dawat-logo.png" alt="">
+                <button class="font-light bg-green-500 text-sm h-8 w-44 rounded-lg mt-3 mb-3 ml-3 text-white">Cook Exotic Dishes</button>
+                <h2 class="text-white text-xl pl-4">UP to <span class="font-bold">20% OFF</span></h2>
+              </div>
+              <div>
+                <img class="w-56 mt-4" src="assets/dawat-mock-up.png" alt="">
+              </div>
+            </div>
+            <div class=" bg-slate-800 flex rounded-xl w-80 ">
+              <div class="pt-5">
+                <img class="w-28 pl-8" src="assets/india-gate-logo.png" alt="">
+                <button class="font-light bg-slate-500 text-sm h-8 w-44 rounded-lg mt-3 mb-3 ml-3 text-white">Cook Exotic Dishes</button>
+                <h2 class="text-white text-xl pl-4">World’s No.1 Rice</h2>
+              </div>
+              <div>
+                <img class="w-28 mt-4 ml-3" src="assets/india-gate-mock-up.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
     </body>
     <footer>
-
+      <section class="bg-stone-200 flex justify-center mx-56 mt-14 rounded-xl -mb-36 relative ">
+        <div>
+          <img class="w-72 mt-4 mb-4" src="assets/vegetable-busket.png" alt="">
+        </div>
+        <div class="pt-14">
+          <h3 class="font-semibold mb-3 text-black text-xl">Get Grocery News!</h3>
+          <p class="font-normal text-xs mb-4">Exclusive training tips, ticks, product deals and more.</p>
+          <input class="rounded-md mb-4 text-xs h-10 w-72 pl-4" placeholder="Enter email...." type="email"> <br>
+          <button class="bg-green-600 text-white text-xs h-7 w-24 rounded-lg">Subscribe</button>
+        </div>
+      </section>
+      <div class="bg-green-700 grid grid-cols-3 h-96 pt-64 ">
+        <div class="pl-36">
+          <img class="w-28" src="assets/logo-footer.png" alt="">
+          <p class="font-extralight text-gray-200 text-xs">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+        </div>
+        <div class="pl-44">
+          <ul class="font-extralight text-white text-xs">
+            <li class="mb-4">Product</li>
+            <li class="mb-4">Services</li>
+            <li class="mb-4">Contact us</li>
+          </ul>
+        </div>
+        <div class="pl-36 pt-10">
+          <div>
+            <h5 class="font-light text-white text-xs mb-2">Follow Us</h5>
+          </div>
+          <div class="flex gap-5 ">
+            <img class="" src="assets/facebook.png" alt="">
+            <img src="assets/video.png" alt="">
+            <img src="assets/linkedin.png" alt="">
+            <img src="assets/youtube.png" alt="">
+          </div>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
